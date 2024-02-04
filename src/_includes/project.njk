@@ -2,7 +2,7 @@
 layout: "base.njk"
 ---
 
-<div class="project">
+{# <div class="project">
   <h2 class="project__heading">{{ title }}</h2>
   <div class="project__image-wrapper">
       <img class="project__image" src="{{ image }}" alt="{{ imageAlt }}">
@@ -10,4 +10,9 @@ layout: "base.njk"
   <div class="project__content prose">
     {{ content | safe }}
   </div>
+</div> #}
+
+<div class="container">
+  <h2 class="h1 text-center mb-4"> {{ title }} </h2>
+  {{ content | safe }}
 </div>
