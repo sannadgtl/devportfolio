@@ -1,0 +1,17 @@
+{# <section class="projects">
+  <h2 class="project__heading">Recent projects</h2>
+  <div class="project-grid">
+    {% for project in collections.projects %}
+      {% include "project-card.njk" %}
+    {% endfor %}
+  </div>
+</section> #}
+
+<div class="container">
+    <h2>Recent Projects</h2>
+    <div class="d-md-flex justify-content-between align-items-center my-3 border border-dark">
+        {% for project in collections.projects %}
+            {% include "project-card.njk"%}
+        {% endfor %}
+    </div>
+</div>
