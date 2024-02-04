@@ -1,14 +1,14 @@
 ---
-title: "Catch Up"
-summary: "Sometimes it's hard to keep in touch with friends and family. I made this app to remind me to schedule a call if we haven't talked in a while."
+title: "test 1"
+summary: "summary"
 image: /images/catch-up.jpg
-imageAlt: "Screenshots of catch up app"
+imageAlt: " "
 tech:
   - "Next.js"
   - "Firebase"
   - "Tailwind CSS"
-siteUrl: "#"
-repoUrl: "#"
+siteUrl: "/projects/test1"
+repoUrl: "/projects/test1"
 ---
 
 ### Problem Solved

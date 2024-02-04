@@ -1,14 +1,14 @@
 ---
-title: "Sourdough Sensei"
-summary: "Like a lot of people, I got really into sourdough in 2020. I made this app to help me bake delicious bread by putting all my recipes and schedules in one place."
+title: "test 2"
+summary: "summary"
 image: /images/sourdough-sensei.jpg
-imageAlt: "Screenshots of sourdough bread app"
+imageAlt: " "
 tech:
   - "React.js"
   - "Firebase"
   - "Tailwind CSS"
-siteUrl: "#"
-repoUrl: "#"
+siteUrl: "/projects/test2"
+repoUrl: "/projects/test2"
 ---
 
 
