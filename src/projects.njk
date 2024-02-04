@@ -10,9 +10,20 @@ layout: "base.njk"
   {% endfor %}
 </div> #}
 
-<div class="container border border-dark">
-    <h2>Projects</h2>
-    {% for project in collections.projects %}
-        {% include "project-card.njk" %}
-    {% endfor %}
+{# <div class="container border border-dark">
+    <h2 text-center>Projects</h2>
+    <div class="row justify-content-center">
+        {% for project in collections.projects %}
+            {% include "project-card.njk" %}
+        {% endfor %}
+    </div>
+</div> #}
+
+<div class="container">
+    <h2 text-center>Projects</h2>
+    <div class="d-md-flex justify-content-between align-items-center">
+        {% for project in collections.projects %}
+            {% include "project-card.njk" %}
+        {% endfor %}
+    </div>
 </div>
