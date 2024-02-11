@@ -2,15 +2,27 @@
 title: "My Portfolio!"
 layout: "base.njk"
 ---
-<form netlify name="contact-form">
-    <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
-    <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-    <textarea name="textarea" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    <button class="btn-primary" type="submit">Submit</button>
-</form>
+<div class="container">
+    <form netlify name="contact-form">
+        <div class="mb-3">
+            <label for="firstName" class="form-label">First name</label>
+            <textarea name="textarea" class="form-control" id="firstName" rows="1"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="surname" class="form-label">Surname</label>
+            <textarea name="textarea" class="form-control" id="surname" rows="1"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="emailAddress" class="form-label">Email address</label>
+            <input type="email" name="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="Message" class="form-label">Enter your message</label>
+            <textarea name="textarea" class="form-control" id="Message" rows="3"></textarea>
+        </div>
+        <button class="btn-primary" type="submit">Submit</button>
+    </form>
+</div>
+
+
 
