@@ -1,0 +1,62 @@
+* body {
+    font-family: "Karla";
+}
+
+/* navbar */
+.navbar {
+    background-color: #C2E0F2;
+}
+
+/* hero section */
+.outer-headings {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation-container {
+    border: 0.5px solid black;
+    border-radius: 5rem;
+    margin-block: 1rem;
+}
+
+.inner-headings {
+    height: 55px;
+    line-height: 55px;
+    font-size: 45px;
+    overflow: hidden;
+    margin-block: 1rem;
+    padding-inline: 2rem;
+}
+
+.inner-headings span {
+    position: relative;
+    display: inline-block;
+    animation: animation 5s ease infinite; 
+}
+
+@keyframes animation {
+    0% {
+        top: 0;
+    }
+    33.33% {
+        top: -55px;
+    }
+    66.66% {
+        top: -110px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+/* footer */
+.footer {
+    background-color: #C2E0F2;
+}
+
+.icon-colour {
+    color: black;
+}
