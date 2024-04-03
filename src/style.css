@@ -34,7 +34,7 @@
 .inner-headings span {
     position: relative;
     display: inline-block;
-    animation: animation 5s ease infinite; 
+    animation: animation 5s ease-in-out infinite; 
 }
 
 @keyframes animation {
