@@ -52,6 +52,15 @@
     }
 }
 
+/* individiual project card */
+.lead span {
+    font-size: 18px;
+}
+
+.btn-primary {
+    background-color: black;
+}
+
 /* footer */
 .footer {
     background-color: #C2E0F2;

@@ -9,12 +9,22 @@
     </div>
 </div> #}
 
-<div class="col-md-4 p-3 border">
+{# <div class="col-md-4 p-3 border">
   <img src="./images/test.png" alt="" class="img-fluid mx-auto d-block border">
   <p class="lead p-3 pt-5 border">
     {{ project.data.title }} <br>
     {{ project.data.summary }} <br>
     <a href="{{ project.data.siteUrl}}" class="btn btn-primary"> View Project</a>
   </p>
-</div>
+</div> #}
 
+<div class="col-md-4 p-3">
+  <img src="./images/test.png" alt="" class="img-fluid mx-auto d-block border">
+  <div class="container-fluid pt-4 border">
+    <p class="lead">
+      {{ project.data.title }} <br>
+      <span>{{ project.data.summary }}</span>
+    </p>
+    <a href="{{ project.data.siteUrl}}" class="btn btn-primary mb-3">View Project</a>
+  </div>
+</div>
