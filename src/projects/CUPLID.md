@@ -5,7 +5,7 @@ image: /images/catch-up.jpg
 imageAlt: " "
 tags:
   - "Bootstrap"
-projectPageUrl: "/projects/test1"
+projectPageUrl: "/projects/CUPPLUSLID"
 siteUrl: "https://cuppluslid-bootstrap.netlify.app/"
 ---
 
