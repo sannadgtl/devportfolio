@@ -1,14 +1,12 @@
 ---
-title: "test 1"
-summary: "summary"
+title: "CUP + LID"
+summary: "Recreating the CUP + LID home page with Bootstrap and custom CSS"
 image: /images/catch-up.jpg
 imageAlt: " "
-tech:
-  - "Next.js"
-  - "Firebase"
-  - "Tailwind CSS"
-siteUrl: "/projects/test1"
-repoUrl: "/projects/test1"
+tags:
+  - "Bootstrap"
+projectPageUrl: "/projects/test1"
+siteUrl: "https://cuppluslid-bootstrap.netlify.app/"
 ---
 
 #### Problem Solved
