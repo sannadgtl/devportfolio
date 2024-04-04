@@ -81,3 +81,63 @@
     color: #272727;
     font-size: 3rem;
 }
+
+/* drink order */
+.form-check-input {
+    outline-color: black; 
+    outline-width: 1px;
+    outline-style: solid;
+}
+
+.cola {
+    min-width: 100px;
+    max-width: 200px;
+    background-color: rgb(72, 30, 0);
+    color: white;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 0.5rem;
+}
+
+.lemon {
+    min-width: 100px;
+    max-width: 200px;
+    background-color: lemonchiffon;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 0.5rem; 
+}
+
+.orange {
+    min-width: 100px;
+    max-width: 200px;
+    background-color: orange;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 0.5rem; 
+}
+
+.button {
+    min-width: 100px;
+    max-width: 200px;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+    margin: 0.5rem; 
+}
+
+button {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    padding-inline: 2rem;
+    padding-block: 1rem;
+    border-radius: 2rem;
+}
