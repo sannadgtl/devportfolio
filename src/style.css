@@ -68,6 +68,15 @@
     border-radius: 1rem 1rem 0rem 0rem;
 }
 
+#footer-img-bg {
+    background-color: #272727;
+    border-radius: 12px;
+}
+
+#footer-img {
+    max-height: 152px;
+}
+
 .icon-colour {
     color: #272727;
     font-size: 3rem;
