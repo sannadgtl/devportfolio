@@ -82,7 +82,7 @@
     font-size: 3rem;
 }
 
-/* drink order */
+/* drink order and tip calculator */
 .form-check-input {
     outline-color: black; 
     outline-width: 1px;
@@ -140,4 +140,9 @@ button {
     padding-inline: 2rem;
     padding-block: 1rem;
     border-radius: 2rem;
+}
+
+input[type="number"] {
+    width: 70%; /* Set width to 70% of parent container */
+    box-sizing: border-box; /* Include padding and border in the width */
 }
