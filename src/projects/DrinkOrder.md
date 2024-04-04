@@ -3,7 +3,7 @@ title: "Drink Order"
 summary: "Creating a drink order function with JavaScript"
 image: /images/cuppluslid-cover-img.png
 imageAlt: " "
-tags:
+tech:
   - "JavaScript"
 projectPageUrl: "/projects/DrinkOrder"
 siteUrl: "/"

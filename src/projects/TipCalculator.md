@@ -3,7 +3,7 @@ title: "Tip Calculator"
 summary: "Creating a tip calculator with JavaScript"
 image: /images/cuppluslid-cover-img.png
 imageAlt: " "
-tags:
+tech:
   - "JavaScript"
 projectPageUrl: "/projects/TipCalculator"
 siteUrl: "/"

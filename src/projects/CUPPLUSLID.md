@@ -3,7 +3,7 @@ title: "CUP + LID"
 summary: "Recreating the CUP + LID home page with Bootstrap and custom CSS"
 image: /images/cuppluslid-cover-img.png
 imageAlt: " "
-tags:
+tech:
   - "Bootstrap"
 projectPageUrl: "/projects/CUPPLUSLID"
 siteUrl: "https://cuppluslid-bootstrap.netlify.app/"

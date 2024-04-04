@@ -1,9 +1,24 @@
-<div class="col-md-4 p-3">
+{# <div class="col-md-4 p-3">
   <img src="{{ project.data.image }}" alt="" class="img-fluid mx-auto d-block border">
   <div class="container-fluid pt-4 border">
     <p class="lead">
+      {{ project.data.title }} 
+    </p>
+    <a href="{{ project.data.projectPageUrl }}" class="btn btn-primary mb-3">View Project</a>
+  </div>
+</div> #}
+
+
+<div class="col-md-4 p-3">
+  <img src="{{ project.data.image }}" alt="" class="img-fluid mx-auto d-block border">
+  <div class="container-fluid pt-4 border">
+    <p class="lead pb-4">
       {{ project.data.title }} <br>
-      <span>{{ project.data.summary }}</span>
+      <div class="">
+      {% for tag in project.data.tech %}
+        <span class="tag"> {{ tag }} </span>
+      {% endfor %}
+    </div>
     </p>
     <a href="{{ project.data.projectPageUrl }}" class="btn btn-primary mb-3">View Project</a>
   </div>
