@@ -33,6 +33,7 @@ button.addEventListener("click", submitOrder);
 function calculateTotal() {
     let billAmount = parseFloat(document.getElementById("billAmount").value); 
     let tipPercentage = parseFloat(document.getElementById("tipPercentage").value)/100;
+    
 
     if (billAmount >= 0.01 && tipPercentage >=0 && tipPercentage <= 1) {
         let totalTip = billAmount * tipPercentage; 
