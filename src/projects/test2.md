@@ -1,7 +1,7 @@
 ---
 title: "test 2"
 summary: "summary"
-image: /images/sourdough-sensei.jpg
+image: /images/cuppluslid-cover-img.png
 imageAlt: " "
 tech:
   - "React.js"

@@ -1,7 +1,7 @@
 ---
 title: "CUP + LID"
 summary: "Recreating the CUP + LID home page with Bootstrap and custom CSS"
-image: /images/catch-up.jpg
+image: /images/cuppluslid-cover-img.png
 imageAlt: " "
 tags:
   - "Bootstrap"
