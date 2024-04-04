@@ -14,11 +14,11 @@
   <div class="container-fluid pt-4 border">
     <p class="lead pb-4">
       {{ project.data.title }} <br>
-      <div class="">
+      <div>
       {% for tag in project.data.tech %}
         <span class="tag"> {{ tag }} </span>
       {% endfor %}
-    </div>
+      </div>
     </p>
     <a href="{{ project.data.projectPageUrl }}" class="btn btn-primary mb-3">View Project</a>
   </div>

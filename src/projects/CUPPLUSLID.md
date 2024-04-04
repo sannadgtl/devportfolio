@@ -9,6 +9,9 @@ projectPageUrl: "/projects/CUPPLUSLID"
 siteUrl: "https://cuppluslid-bootstrap.netlify.app/"
 ---
 
-#### Problem Solved
+<iframe src="https://cuppluslid-bootstrap.netlify.app/" frameborder="0">
+</iframe>
+
+#### Reflection
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
