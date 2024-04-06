@@ -159,8 +159,8 @@ button {
 }
 
 input[type="number"] {
-    width: 70%; /* Set width to 70% of parent container */
-    box-sizing: border-box; /* Include padding and border in the width */
+    width: 70%; 
+    box-sizing: border-box; 
 }
 
 /* contact form */

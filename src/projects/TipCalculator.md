@@ -1,7 +1,7 @@
 ---
 title: "Tip Calculator"
 summary: "Creating a tip calculator with JavaScript"
-image: /images/cuppluslid-cover-img.png
+image: /images/tip-calc-cover-img.png
 imageAlt: " "
 tech:
   - "JavaScript"

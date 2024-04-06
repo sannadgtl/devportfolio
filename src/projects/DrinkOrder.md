@@ -1,7 +1,7 @@
 ---
 title: "Drink Order"
 summary: "Creating a 'drink order' program using JavaScript switch statements"
-image: /images/cuppluslid-cover-img.png
+image: /images/drink-order-cover-img.png
 imageAlt: " "
 tech:
   - "JavaScript"
