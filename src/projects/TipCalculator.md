@@ -12,4 +12,4 @@ siteUrl: "/"
 
 ### Reflection  
 
-* What I learnt from this project is the importance of **parseFloat** and why it was needed for the function to work correctly. 
+What I learnt from this project is the importance of **parseFloat** and why it was needed for the function to work correctly. 
