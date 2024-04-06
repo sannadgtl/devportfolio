@@ -8,13 +8,12 @@ layout: "base.njk"
         <div class="row mb-5">
             <div class="col-md-6">
                 <label for="firstName" class="form-label">First name<span class="required">*</span></label>
-                {# <textarea name="textarea" class="form-control" id="firstName" rows="1"></textarea> #}
-                <input type="text" class="form-control" id="firstName" rows="1" required>
+                <input type="text" class="form-control" id="firstName" name="firstName" rows="1" required>
              </div>
             <div class="col-md-6">
                 <label for="surname" class="form-label">Surname</label>
                 {# <textarea name="textarea" class="form-control" id="surname" rows="1"></textarea> #}
-                <input type="text" name="textarea" class="form-control" id="surname" rows="1">
+                <input type="text" name="surname" class="form-control" id="surname" rows="1">
             </div>
         </div>
         <div class="mb-5">
@@ -23,8 +22,7 @@ layout: "base.njk"
         </div>
         <div class="mb-5">
             <label for="Message" class="form-label">Enter your message<span class="required">*</span></label>
-            {# <textarea name="textarea" class="form-control" id="Message" rows="3"></textarea> #}
-            <input type="text" class="form-control" id="Message" rows="3" required>
+            <input type="text" name="message" class="form-control" id="Message" rows="3" required>
         </div>
         <div class="form-check mb-5">
             <input class="form-check-input" type="checkbox" required>
