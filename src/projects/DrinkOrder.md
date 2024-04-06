@@ -10,6 +10,7 @@ siteUrl: "/"
 ---
 {% include "drinkorder.njk" %}
 
-#### Reflection
+<!-- ### Reflection  
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
+* **Custom CSS** - Occasionally, it was difficult to find the correct Bootstrap class that I needed to target for custom CSS.  
+* **Grid Section** - Recreating the grid section was the most challenging part of this project. I kept encountering a persistent extra white space on the right-hand side of the page whilst coding the grid, as well as needing to figure out how to switch the order of images on screens below the md breakpoint for a better layout flow.  -->
