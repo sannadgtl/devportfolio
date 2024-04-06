@@ -7,28 +7,28 @@ layout: "base.njk"
     <form netlify name="contact-form">
         <div class="row mb-5">
             <div class="col-md-6">
-                <label for="firstName" class="form-label">First name:</label>
+                <label for="firstName" class="form-label">First name<span class="required">*</span></label>
                 {# <textarea name="textarea" class="form-control" id="firstName" rows="1"></textarea> #}
                 <input type="text" class="form-control" id="firstName" rows="1" required>
              </div>
             <div class="col-md-6">
-                <label for="surname" class="form-label">Surname:</label>
+                <label for="surname" class="form-label">Surname</label>
                 {# <textarea name="textarea" class="form-control" id="surname" rows="1"></textarea> #}
-                <input type="text" name="textarea" class="form-control" id="surname" rows="1" required>
+                <input type="text" name="textarea" class="form-control" id="surname" rows="1">
             </div>
         </div>
         <div class="mb-5">
-            <label for="emailAddress" class="form-label">Email address:</label>
-            <input type="email" name="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+            <label for="emailAddress" class="form-label">Email address<span class="required">*</span></label>
+            <input type="email" name="email" class="form-control" id="emailAddress" placeholder="name@example.com" required>
         </div>
         <div class="mb-5">
-            <label for="Message" class="form-label">Enter your message:</label>
+            <label for="Message" class="form-label">Enter your message<span class="required">*</span></label>
             {# <textarea name="textarea" class="form-control" id="Message" rows="3"></textarea> #}
             <input type="text" class="form-control" id="Message" rows="3" required>
         </div>
         <div class="form-check mb-5">
             <input class="form-check-input" type="checkbox" required>
-            <label for="" class="form-check-label">I agree to the terms & conditions</label>
+            <label for="" class="form-check-label">I agree to the terms & conditions<span class="required">*</span></label>
         </div>
         <div class="text-center mb-5">
             <button class="btn btn-primary mb-5" type="submit">Submit</button>

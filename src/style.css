@@ -162,3 +162,9 @@ input[type="number"] {
     box-sizing: border-box; /* Include padding and border in the width */
 }
 
+/* contact form */
+.required {
+    font-weight: bold;
+    color: red;
+}
+
