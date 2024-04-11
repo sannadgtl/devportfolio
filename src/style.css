@@ -9,7 +9,7 @@
 
 /* hero section */
 .outer-headings {
-    height: 75vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,20 +23,16 @@
 }
 
 .inner-headings {
-    /* height: 55px; */
     width: 400px; 
     line-height: 55px;
     font-size: 45px;
     overflow: hidden;
     margin-block: 1rem;
     padding-inline: 2rem;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 }
-
-/* .inner-headings span {
-    position: relative;
-    display: inline-block;
-    animation: animation 5s ease-in-out infinite; 
-} */
 
 #hero {
     list-style: none;
@@ -66,21 +62,6 @@
       opacity: 0.5;
     }
 }
-
-/* @keyframes animation {
-    0% {
-        top: 0;
-    }
-    33.33% {
-        top: -55px;
-    }
-    66.66% {
-        top: -110px;
-    }
-    100% {
-        top: 0;
-    }
-} */
 
 /* individiual project card */
 .lead span {
