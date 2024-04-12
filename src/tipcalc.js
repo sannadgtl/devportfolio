@@ -15,4 +15,5 @@ function calculateTotal() {
     }    
 }
 
-
+const tipButton = document.querySelector("#total-button"); 
+tipButton.addEventListener("click", calculateTotal); 
