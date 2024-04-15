@@ -17,3 +17,12 @@ function addAnimation() {
 }
 
 addAnimation(); 
+
+window.sr = ScrollReveal(); 
+sr.reveal(".outer-headings", {
+    delay: 10,
+    useDelay: 'onload',
+    origin: 'bottom',
+    distance: '50%',
+    duration: 1000
+});  

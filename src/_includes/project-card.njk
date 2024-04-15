@@ -1,4 +1,4 @@
-<div class="col-md-4 p-3">
+<div class="col-md-4 p-3" id="card">
   <img src="{{ project.data.image }}" alt="" class="img-fluid mx-auto d-block border">
   <div class="container-fluid pt-4 border">
     <p class="lead pb-4">
@@ -12,3 +12,14 @@
     <a href="{{ project.data.projectPageUrl }}" class="btn btn-primary mb-3">View Project</a>
   </div>
 </div>
+
+<script>
+  window.sr = ScrollReveal(); 
+  sr.reveal("#card", {
+    delay: 30,
+    useDelay: 'onload',
+    origin: 'bottom',
+    distance: '50%',
+    duration: 1000
+    });  
+</script>

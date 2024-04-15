@@ -9,7 +9,7 @@
 
 /* hero section */
 .outer-headings {
-    height: 70vh;
+    height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,7 +41,7 @@
 }
 
 .animated-item {
-    animation: slideIn 4s forwards cubic-bezier(0.1, 0.67, 0.29, 0.98);
+    animation: slideIn 3500ms forwards cubic-bezier(0.1, 0.67, 0.29, 0.98);
 }
 
 @keyframes slideIn {
