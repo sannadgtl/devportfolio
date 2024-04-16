@@ -14,12 +14,14 @@
 </div>
 
 <script>
-  window.sr = ScrollReveal(); 
-  sr.reveal("#card", {
-    delay: 30,
-    useDelay: 'onload',
-    origin: 'bottom',
-    distance: '50%',
-    duration: 1000
-    });  
+  window.addEventListener("DOMContentLoaded", function () {
+    window.sr = ScrollReveal(); 
+    sr.reveal("#card", {
+      delay: 30,
+      useDelay: 'onload',
+      origin: 'bottom',
+      distance: '50%',
+      duration: 1000
+    });
+  }); 
 </script>

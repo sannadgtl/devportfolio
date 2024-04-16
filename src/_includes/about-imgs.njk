@@ -16,33 +16,35 @@
 </div>
 
 <script>
-    window.sr = ScrollReveal(); 
-    sr.reveal("#img1", {
-        delay: 10,
-        useDelay: 'onload',
-        origin: 'bottom',
-        distance: '50%',
-        duration: 1000
-    }); 
-    sr.reveal("#img2", {
-        delay: 310,
-        useDelay: 'onload',
-        origin: 'bottom',
-        distance: '50%',
-        duration: 1000
-    }); 
-    sr.reveal("#img3", {
-        delay: 610,
-        useDelay: 'onload',
-        origin: 'bottom',
-        distance: '50%',
-        duration: 1000
-    }); 
-    sr.reveal("#img4", {
-        delay: 810,
-        useDelay: 'onload',
-        origin: 'bottom',
-        distance: '50%',
-        duration: 1000
+    window.addEventListener("DOMContentLoaded", function () {
+        window.sr = ScrollReveal(); 
+        sr.reveal("#img1", {
+            delay: 10,
+            useDelay: 'onload',
+            origin: 'bottom',
+            distance: '50%',
+            duration: 1000
+        }); 
+        sr.reveal("#img2", {
+            delay: 310,
+            useDelay: 'onload',
+            origin: 'bottom',
+            distance: '50%',
+            duration: 1000
+        }); 
+        sr.reveal("#img3", {
+            delay: 610,
+            useDelay: 'onload',
+            origin: 'bottom',
+            distance: '50%',
+            duration: 1000
+        }); 
+        sr.reveal("#img4", {
+            delay: 810,
+            useDelay: 'onload',
+            origin: 'bottom',
+            distance: '50%',
+            duration: 1000
+        }); 
     }); 
 </script>
