@@ -78,6 +78,11 @@
     --bs-btn-active-color: #272727; 
 }
 
+.btn-primary:active {
+    background-color: #C2E0F2;
+    color: #272727;
+}
+
 .tag {
     background-color: #C2E0F2;
     padding: 0.5rem 1rem;
