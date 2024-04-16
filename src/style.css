@@ -74,6 +74,8 @@
     border: #272727;;
     --bs-btn-hover-bg: #C2E0F2;
     --bs-btn-hover-color: #272727;
+    --bs-btn-active-bg: #71bcea;
+    --bs-btn-active-color: #272727; 
 }
 
 .tag {
@@ -183,7 +185,7 @@ input[type="number"] {
     color: red;
 }
 
-/* about imgs */
+/* about */
 #img1, 
 #img2, 
 #img3, 
