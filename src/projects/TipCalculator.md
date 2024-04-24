@@ -7,6 +7,7 @@ tech:
   - "JavaScript"
 projectPageUrl: "/projects/TipCalculator"
 siteUrl: "/"
+featured: false 
 ---
 {% include "tipcalculator.njk" %}
 

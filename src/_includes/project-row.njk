@@ -4,7 +4,9 @@
   </div>
   <div class="row align-items-center justify-content-between mx-3">
     {% for project in collections.projects %}
-      {% include "project-card.njk"%}
+      {% if project.featured %}
+        {% include "project-card.njk"%}
+      {% endif %}
     {% endfor %}
   </div>
 </div>

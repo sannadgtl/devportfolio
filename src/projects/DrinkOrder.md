@@ -7,6 +7,7 @@ tech:
   - "JavaScript"
 projectPageUrl: "/projects/DrinkOrder"
 siteUrl: "/"
+featured: true
 ---
 {% include "drinkorder.njk" %}
 
