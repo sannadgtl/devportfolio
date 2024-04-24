@@ -9,7 +9,7 @@ projectPageUrl: "/projects/PhotoGalleryFilter"
 siteUrl: "/"
 ID: 3
 ---
-{% include "photofilter.njk" %}
+{% include "filter.njk" %}
 
 <!-- ### Reflection  
 
