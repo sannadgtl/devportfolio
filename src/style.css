@@ -198,3 +198,20 @@ input[type="number"] {
     color: black;
     font-weight: bold;
 }
+
+/* Photo gallery filter project */
+.hidden {
+    display: none;
+}
+
+.imageFilter {
+    height: 250px;
+    object-fit: cover;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+}
