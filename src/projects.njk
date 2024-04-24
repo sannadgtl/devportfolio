@@ -2,12 +2,24 @@
 title: "My Projects"
 layout: "base.njk"
 ---
-
 <div class="container mt-5">
     <h2 class="text-center">Projects:</h2>
-    <div class="d-md-flex justify-content-between align-items-center">
-        {% for project in collections.projects %}
-            {% include "project-card.njk" %}
-        {% endfor %}
+    <div class="row">
+        <div class="d-md-flex justify-content-between align-items-center">
+            {% for project in collections.projects %}
+                {% if project.data.ID == 1 or project.data.ID == 2 or project.data.ID == 3 %}
+                    {% include "project-card.njk"%}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="d-md-flex justify-content-between align-items-center">
+            {% for project in collections.projects %}
+                {% if project.data.ID == 4 %}
+                    {% include "project-card.njk"%}
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </div>

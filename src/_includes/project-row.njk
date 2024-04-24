@@ -1,10 +1,12 @@
 <div class="section">
   <div class="container-fluid">
-    <h2 class="h5 text-center mt-4">Recent Projects:</h2>
+    <h2 class="h5 text-center mt-4">Featured Projects:</h2>
   </div>
   <div class="row align-items-center justify-content-between mx-3">
     {% for project in collections.projects %}
-      {% include "project-card.njk"%}
+      {% if project.data.ID == 1 or project.data.ID == 2 or project.data.ID == 3 %}
+        {% include "project-card.njk"%}
+      {% endif %}
     {% endfor %}
   </div>
 </div>
