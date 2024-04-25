@@ -215,3 +215,9 @@ input[type="number"] {
     display: flex;
     justify-content: center;
 }
+
+#search {
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-left: 4px;
+}
