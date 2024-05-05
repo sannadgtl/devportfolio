@@ -1,11 +1,11 @@
 ---
-title: "Photo Gallery Filter"
+title: "Image Gallery Filter"
 summary: "A JavaScript program filtering images based on radio buttons and search text"
 image: /images/photo-gallery-filter-cover-img.png
 imageAlt: " "
 tech:
   - "JavaScript"
-projectPageUrl: "/projects/PhotoGalleryFilter"
+projectPageUrl: "/projects/ImageGalleryFilter"
 siteUrl: "/"
 ID: 3
 ---
