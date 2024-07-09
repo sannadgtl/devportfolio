@@ -14,9 +14,10 @@ layout: "base.njk"
         </div>
     </div>
     <div class="row">
-        <div class="d-md-flex justify-content-between align-items-center">
+        {# justify-content-center when < 3 projects #}
+        <div class="d-md-flex justify-content-center align-items-center"> 
             {% for project in collections.projects %}
-                {% if project.data.ID == 4 %}
+                {% if project.data.ID == 4 or project.data.ID == 5 or project.data.ID == 6 %}
                     {% include "project-card.njk"%}
                 {% endif %}
             {% endfor %}
