@@ -1,6 +1,6 @@
 ---
 title: "Lyric Game"
-summary: "[add]"
+summary: " "
 image: /images/lyric-game-cover-img.png
 imageAlt: " "
 tech:
@@ -11,7 +11,7 @@ siteUrl: "https://taylor-swift-lyric-game.netlify.app/"
 ID: 2
 ---
 
-<iframe class="mb-5" src="https://taylor-swift-lyric-game.netlify.app/" width="100%" height="500px" frameborder="0"> 
+<iframe class="mb-5" src="https://taylor-swift-lyric-game.netlify.app/" width="100%" height="1000px" frameborder="0"> 
 </iframe>
 
 <!-- ### Reflection
