@@ -1,6 +1,6 @@
 ---
 title: "Lyric Game"
-summary: " "
+summary: "A lyric guessing game developed in JavaScript and styled with Bootstrap"
 image: /images/lyric-game-cover-img.png
 imageAlt: " "
 tech:
@@ -11,10 +11,12 @@ siteUrl: "https://taylor-swift-lyric-game.netlify.app/"
 ID: 2
 ---
 
-<iframe class="mb-5" src="https://taylor-swift-lyric-game.netlify.app/" width="100%" height="1000px" frameborder="0"> 
+<iframe class="mb-5" src="https://taylor-swift-lyric-game.netlify.app/" width="100%" height="650px" frameborder="0"> 
 </iframe>
 
-<!-- ### Reflection
+### Features to Add in Future Iterations
 
-**Custom CSS** - Occasionally, it was difficult to find the correct Bootstrap class that I needed to target for custom CSS.
-**Grid Section** - Recreating the grid section was the most challenging part of this project. I kept encountering a persistent extra white space on the right-hand side of the page whilst coding the grid, as well as needing to figure out how to switch the order of images on screens below the md breakpoint for a better layout flow.  -->
+**Splash Screen** - An initial screen displaying the game instructions.  
+**Randomised lyrics** - Currently, the lyrics appear in the order they are listed in the array. Implementing randomisation would enhance the gameplay.  
+**Timer** - Adding a timer to introduce an extra challenge.  
+**Incorrect Answers** - A section displayed at the end of the game to show which questions the user got wrong.
